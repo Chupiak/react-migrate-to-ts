@@ -63,3 +63,19 @@
     width: calc(var(--size) * 1);
     height: calc(var(--size) / 1.427);
 }
+
+.button-custom {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #808080;
+    border: solid #A9A9A9 1px;
+    background-color: white;
+    border-radius: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+.button-custom:hover {
+    background-color: grey;
+    color: white;
+}

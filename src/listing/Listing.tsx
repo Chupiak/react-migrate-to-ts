@@ -1,4 +1,4 @@
-import './App.css';
+import './Listing.css';
 import TextTop from "../property_components/text-top/TextTop";
 import Property from "../property_components/property/Property";
 import HeadApp from "../head_components/HeadApp";
