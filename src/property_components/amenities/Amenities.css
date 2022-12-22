@@ -1,0 +1,22 @@
+
+.third-row {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: grey;
+    font-size: 13px;
+}
+
+
+.ul-style {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+.li-style {
+    padding-left: 3px;
+}
+.li-style::after {
+    content: '•';
+    margin-left: 3px;
+}

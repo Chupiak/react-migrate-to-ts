@@ -1,0 +1,28 @@
+
+.top-text {
+    padding-top: 10px;
+    margin-left: 10px;
+    color: grey;
+    height: 20px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.price {
+    margin-left: 31%;
+    font-weight: bold;
+}
+
+.price-1 {
+    margin-top: 3px;
+    margin-left: 70%;
+    font-weight: bold;
+    color: grey;
+    font-size: 12px;
+}
+
+
+.star {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
