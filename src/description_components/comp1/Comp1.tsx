@@ -6,7 +6,7 @@ import "./Comp1.css"
 export default function Comp1() {
     return (
 
-        <div>
+        <div className="div-comp">
                 <div className="first-row-new">Cozy Shared Apartment in Copenhagen</div>
                 <img className="star-new" src={Star} alt="first"/>
                 <div className="top-text-new"><strong>4.5</strong></div>

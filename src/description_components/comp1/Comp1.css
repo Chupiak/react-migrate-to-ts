@@ -1,5 +1,5 @@
 .div-comp {
-    width: 50%;
+
     font-size: 18px;
     font-family: Roboto, sans-serif;
 }
@@ -28,4 +28,38 @@
     font-size: 18px;
     font-family: Manrope, serif;
     margin-bottom: 7px;
+}
+
+.image1 {
+    --size: 306px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    width: calc(var(--size) * 1);
+    height: calc(var(--size) / 1.4166);
+}
+
+.image2 {
+    --size: 149px;
+    width: calc(var(--size) * 1);
+    height: calc(var(--size) / 1.427);
+}
+
+.image3 {
+    --size: 149px;
+    border-top-right-radius: 16px;
+    width: calc(var(--size) * 1);
+    height: calc(var(--size) / 1.427);
+}
+
+.image4 {
+    --size: 149px;
+    width: calc(var(--size) * 1);
+    height: calc(var(--size) / 1.427);
+}
+
+.image5 {
+    --size: 149px;
+    border-bottom-right-radius: 16px;
+    width: calc(var(--size) * 1);
+    height: calc(var(--size) / 1.427);
 }
