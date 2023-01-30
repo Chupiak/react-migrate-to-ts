@@ -29,7 +29,6 @@ export default function CarouselBox() {
                 {photos.map((photo) => (
                     <div key={photo.id} className={photos[currentIndex].id === photo.id ? 'fade' : 'slide fade'}>
                         <a target="_blank" href={`description`} rel="noreferrer"><img className='photo' src={photo.path} alt="PropertyPhoto"/></a>
-                        <div className='caption'></div>
                     </div>
                 ))}
 
@@ -40,18 +39,16 @@ export default function CarouselBox() {
                 <button onClick={next} className='next'>
                     &gt;
                 </button>
-            </div>
-
-            <div className='dots'>
-                {photos.map((photo) => (
-                    <span
-                        key={photo.id}
-                        className={photos[currentIndex].id === photo.id ? 'dot active' : 'dot'}
-                        onClick={() => setCurrentIndex(photos.indexOf(photo))}
-                    ></span>
-                ))}
+                <div className='dots'>
+                    {photos.map((photo) => (
+                        <span
+                            key={photo.id}
+                            className={photos[currentIndex].id === photo.id ? 'dot active' : 'dot'}
+                            onClick={() => setCurrentIndex(photos.indexOf(photo))}
+                        ></span>
+                    ))}
+                </div>
             </div>
         </>
     );
 }
-
