@@ -3,7 +3,7 @@ import "./Carousel.css";
 // @ts-ignore
 import foto1 from '../images/1property.jpg'
 // @ts-ignore
-import foto2 from '../images/2propertry.jpg'
+import foto2 from '../images/2property.jpg'
 // @ts-ignore
 import foto3 from '../images/3property.jpg'
 // @ts-ignore

@@ -2,7 +2,7 @@ import './Comp2.css';
 // @ts-ignore
 import PropertyPhoto1 from "../../images/1property.jpg";
 // @ts-ignore
-import PropertyPhoto2 from "../../images/2propertry.jpg";
+import PropertyPhoto2 from "../../images/2property.jpg";
 // @ts-ignore
 import PropertyPhoto3 from "../../images/3property.jpg";
 // @ts-ignore
